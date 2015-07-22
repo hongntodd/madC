@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>MadChemist</title>
+  <link rel="icon" type="image/ico" href="madchemist.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    #machine {text-align: center; }
+    video { width: 100%; height: auto; }  
+	body{margin:0;background:#000}
+	
+	video{position:fixed;right:0;bottom:0;min-width:100%;min-height:100%;width:auto;height:auto;z-index:-100;background-size:cover;-webkit-transition:1s opacity;transition:1s opacity}
+	
+	div{font-weight:100;color:#fff;padding:2rem;text-align: center;font-size:1.2rem; width: 100%; vertical-align: middle; margin-top: 20%;}  
+	img { width: 300px;}
+	@-ms-viewport {	width: device-width;}
+	@viewport {	width: device-width;}
+
+@media (max-width: 1599px) {
+	
+	body {background-color: carrot}
+	
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {    
+		margin: 0 0.3% .8% 0;text-align:center; display: block}
+	
+	.woocommerce-page.columns-5 ul.products li.product, .woocommerce.columns-5 ul.products li.product {
+		width: 19.15%; }
+	
+	.woocommerce ul.products li.product .price { float: none; margin-top: -20px;}
+	
+	.woocommerce ul.products li.product h3 { font-weight: normal;position: relative }
+	
+	.site-main .widget-area {right: 0px;}
+	
+	.widget {padding: 0;}
+	
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { width: 22.05%;}
+	
+	#primary-menu li {width: 23.9%;} /* Navigation menu */
+}
+
+@media (max-width: 1069px) { /* ipad landscape */
+	body {background-color: burlywood}
+	
+	#polina { margin-top: 22%}
+	#polina img { width: 20%}
+}
+
+@media (max-width: 999px) { /* ipad portrait **/
+	body {background-color: grey}
+	#polina { margin-top: 45%}
+	#polina img { width: 20%}
+}
+
+
+
+/**
+ * 9.0 Print
+ * ----------------------------------------------------------------------------
+ */
+
+/* Retina-specific styles. iphone 6 plus*/
+
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) {
+
+	body {background-color:  yellow}
+	#polina { margin-top: 50%}
+	#polina img { width: 30%}
+}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+	body {background-color: green}
+	#polina { margin-top: 20%}
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : landscape) {
+	body {background-color:  purple}
+	#polina { margin-top: 20%}
+}
+
+@media (max-width:320px) {/* Small mobile device 4s and 4 and less */
+	#polina { margin-top: 30%}
+	#polina img { width: 40%}
+	body {background-color: tomato}
+}
+ 
+  </style>
+</head>
+
+<body>
+  
+         
+    <video id="bgvid" autoplay loop >
+      <source src="video/eliquid.mp4" type='video/mp4' />
+    </video>          
+  
+
+  <div id="polina">
+    <a href="http://192.168.1.113/wp"><img src="images/start.png" alt="Start Mixing Now" with="100" height="auto"></a>
+  </div>
+
+</body>
+</html> 
